@@ -16,7 +16,7 @@ ventas_mayores_500=datosOrdenados.query("total > 500000").head(5)
 ventas_300_tallaM=datosOrdenados.query("total >300000 and talla == 'M' ")
 
 #3. QUERIES CON VALORES ESPECIFICOS DE UNA COLUMNA
-#Me gustaria evr las ventas de Pablo Serna o de Angie Saldarriaga
+#Me gustaria ver las ventas de Pablo Serna o de Angie Saldarriaga
 ventas_vendedores_serna_saldarriaga=datosOrdenados.query("vendedor == 'Pablo Serna' or vendedor == 'Angie Saldarriaga'")
 
 
